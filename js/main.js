@@ -1,5 +1,5 @@
 import { sum } from "./utils.js";
-import { get_contact_form } from "./contact_m/form_contact.js";
+import { get_contact_form } from "./contactComponent/contact.components.js";
 
 console.log(`Response of the SUM: ${sum(30, 2)}`); // 3
 
