@@ -1,5 +1,5 @@
 @echo off
-set port=8000
+set port=9000
 
 :: Call the subroutine to check if the port is in use
 call :check_port %port%
