@@ -2,7 +2,9 @@
 const routes = {
     '#/': './pages/home.html',
     '#/contacts': './pages/contacts.html',
+    '#/countries': './pages/countries.html',
     '#/home': './pages/home.html',
+    '#/visualizer': './pages/visualizer.html'
     // Add more routes here
 };
 

@@ -1,6 +1,7 @@
 import { router } from './router.js';
 //import ContactComponent from './contactComponent/contact.components.js'; // Step 1: Import the FormDataHandler class
 import { load_contact_component } from './contactComponent/contact.components.js'; // Step 1: Import the FormDataHandler class
+import { load_countries_component } from './contactComponent/countries.components.js'; // Step 1: Import the FormDataHandler class
 
 // Update the add_page function if necessary
 // Assuming add_page is already implemented correctly
@@ -18,7 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (localStorage.getItem('current_page') == './pages/contacts.html') {
         //document.getElementById('contacts').click();
         load_contact_component('#contactForm', 'https://jsonplaceholder.typicode.com/users');
+    }else if (localStorage.getItem('current_page') == './pages/countries.html') {
+        
+        //load_countries_component('#contactForm', 'https://jsonplaceholder.typicode.com/users');
     }
+
+    test(e)
+    
     // Instantiate FormDataHandler for a specific form and endpoint
     //new ContactComponent('#contactForm', 'https://yourserver.com/endpoint'); // Adjust the selector and endpoint as needed
 
@@ -54,3 +61,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     */
 });
+
+
