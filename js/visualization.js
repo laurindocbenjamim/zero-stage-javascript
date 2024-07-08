@@ -53,6 +53,8 @@ function displayChart(chart) {
   }
 }
 
+
+
 /**
  *  This method is used to remove existent canvas child element from 
  * the chart container

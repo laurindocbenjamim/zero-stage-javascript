@@ -122,7 +122,7 @@ function updateCSRFToken() {
 //export default ContactComponent;
 
 export let load_countries_component = (formSelector, serverEndpoint) => {
-
+    
     document.getElementById('test').addEventListener('click', (e)=>{
         e.preventDefault()
         alert("This is a test")

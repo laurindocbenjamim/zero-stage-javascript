@@ -4,7 +4,8 @@ const routes = {
     '#/contacts': './pages/contacts.html',
     '#/countries': './pages/countries.html',
     '#/home': './pages/home.html',
-    '#/visualizer': './pages/visualizer.html'
+    '#/visualizer': './pages/visualizer.html',
+    '#/products': './pages/netcaixa/products.html',
     // Add more routes here
 };
 
